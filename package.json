@@ -1,0 +1,16 @@
+{
+  "name": "editor",
+  "version": "1.0.0",
+  "description": "nodejs kindeditor angularjs",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.1",
+    "formidable": "^1.0.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "4DKelvin",
+  "license": "ISC"
+}

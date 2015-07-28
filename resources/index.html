@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- ckeditor plugin-->
+    <script src="lib/kindeditor/kindeditor-all-min.js"></script>
+    <!-- angularjs plugin -->
+    <script src="lib/angular/angular.js"></script>
+    <script src="angular.editor.js"></script>
+    <script type="text/javascript">
+        angular.module('edit',['edit.editor'])
+            .controller('EditCtl', function($scope) {
+                $scope.name="sample text";
+            });
+    </script>
+</head>
+<body ng-app="edit">
+    <div ng-controller="EditCtl">
+        <textarea ng-model="name" editor></textarea>
+        <div style="margin: 10px;">
+            <pre>{{name}}</pre>
+        </div>
+    </div>
+</body>
+</html>

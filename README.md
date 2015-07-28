@@ -1,2 +1,8 @@
 # editor
-angularjs kindeditor 
+angularjs kindeditor plugin
+
+run script
+
+npm install
+
+npm start
